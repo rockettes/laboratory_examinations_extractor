@@ -1,0 +1,7 @@
+./input/*
+settings.json
+__pycache__
+*.csv
+*.pdf
+*.xlsx
+*.xls

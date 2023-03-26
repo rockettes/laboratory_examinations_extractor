@@ -1,0 +1,65 @@
+{"type_1" : {
+    "regex" : "resultado .+\n.*?(\\d+\\s+|-?\\d+\\,?\\d+)"
+    ,"tests" : [
+        "ureia"
+        ,"creatinina"
+        ,"glicose"
+        ,"glicemia de jejum"
+        ,"insulina"
+        ,"calcio total"
+        ,"cloro"
+        ,"aspartato amino transferase"
+        ,"alanina amino transferase"
+        ,"gama glutamil transferase"
+        ,"fosfatase alcalina"
+        ,"ferro"        
+        ,"magnesio"
+        ,"sodio"
+        ,"potassio"
+        ,"proteina c reativa - ultra sensivel"
+        ]
+    }
+,"type_2" : {
+    "regex" : "\\s+(\\d+\\s+|-?\\d+\\,?\\d+)"
+    ,"tests" : [
+        "colesterol total"
+        ,"colesterol - hdl"
+        ,"colesterol - ldl"
+        ,"colesterol nao - hdl"
+        ,"triglicerides"
+        ,"eritrocitos"
+        ,"hemoglobina"
+        ,"hematocrito"
+        ,"vcm"
+        ,"rdw"
+        ,"hcm"
+        ,"chcm"
+        ,"eritroblastos"
+        ,"leucocitos"
+        ,"promielocitos"
+        ,"mielocitos"
+        ,"metamielocitos"
+        ,"bastoes"
+        ,"neutrofilos"
+        ,"eosinofilos"
+        ,"basofilos"
+        ,"linfocitos"
+        ,"linfocitos atipicos"
+        ,"monocitos"
+        ,"celulas anormais"
+        ,"plaquetas"
+        ]
+    }
+,"type_3" : {
+    "regex" : "metodo: .+\n.*?(\\d+\\s+|-?\\d+\\,?\\d+)"
+    ,"tests" : [
+        "ferritina"
+        ,"transferrina"
+        ,"vitamina b12"
+        ,"vitamina d total"
+        ,"indice de satura cao da transferrina"
+        ,"exame: ferro"
+        ,"exame: transferrina"
+        ]
+    }
+}
